@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom"
+import Homeitem from "../cards/Homeitem";
 import "../styles/Home.css"
 export default function Home() {
   return (
@@ -22,7 +23,30 @@ export default function Home() {
         </div>
       </div>
       </header>
-    
+      <section>
+       <div className="Container">
+         <div className="row">
+           <div className="leftBox">
+            <h2> 
+              Why Choose Us
+            </h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non sapiente aspernatur, incidunt qui, nihil alias laborum officiis  nihil alias  nihil alias laborum officiis  nihil alias laborum officiis  nihil alias laborum officiis  nihil alias laborum officiis 
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non sapiente aspernatur, incidunt qui, nihil alias laborum officiis expedita quisquam sequi ipsum beatae vitae a doloremque saepe repellat veniam amet, hic quam rerum pariatur! Error, repudiandae cumque quae velit adipisci nulla. nihil alias laborum officiis  nihil alias laborum officiis  nihil alias laborum officiis  nihil alias laborum officiis 
+            </p>
+           </div>
+           <div className="rightBox">
+             <Homeitem/>
+             <Homeitem/>
+             <Homeitem/>
+             <Homeitem/>
+           </div>
+         </div>
+       </div>
+
+      </section>
     </>
   );
 }

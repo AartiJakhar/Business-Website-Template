@@ -36,7 +36,7 @@
 }
 .mainrow .fa{
     background-color: rgb(255, 70, 29);
-    padding: .8rem;
+    padding: .801rem;
     color: white;
 }
 .mainrow .fa:hover{
@@ -88,3 +88,33 @@
 
 
 
+/* section for container  */
+.container{
+    border: solid red;
+}
+.row{
+    border: solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.leftBox{
+    width: 30%;
+    margin: 7rem 0rem;
+}
+.leftBox p{
+    text-align: left;
+    margin: 2rem 0rem;
+    line-height: 1.5rem;
+}
+.leftBox h2{
+    font-size: 3rem;
+    color: rgb(31, 31, 31);
+}
+.rightBox{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    
+}
