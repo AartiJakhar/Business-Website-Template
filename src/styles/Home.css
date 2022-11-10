@@ -1,0 +1,47 @@
+.container{
+    background: url('https://demo.gecdesigns.com/demo/webs/creative-business-website-template-130819/img/hero.jpg') center/cover  no-repeat ;
+    height: 33rem;
+    display: flex;
+    align-items: center;
+    top: 0;
+}
+
+
+.mainrow{
+    width: 30rem;
+    color: white;
+    box-sizing: border-box;
+    margin-left: 5.5rem;
+}
+.mainrow h1{
+    width: 24rem;
+    font-size: 3rem;
+}
+.mainrow h3{
+    color: rgb(255, 70, 29);
+    
+}
+.mainrow p{
+    margin: 1rem 0rem;
+}
+.mainrow .btn{
+    color: white;
+    text-decoration: none;
+    padding:  .5rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    border: solid rgb(255, 70, 29);
+}
+.mainrow .fa{
+    background-color: rgb(255, 70, 29);
+    padding: .8rem;
+    color: white;
+}
+.mainrow .fa:hover{
+    color: black;
+    transition: all ease .2s;
+}
+.mainrow .btn:hover{
+    background-color: rgb(255, 70, 29);
+    transition: all ease .3s;
+}
