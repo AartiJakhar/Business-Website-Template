@@ -4,8 +4,9 @@ import "../styles/Home.css"
 export default function Home() {
   return (
     <>
-      <div className="container">
-        <div className="row">
+      <header>
+      <div className="Topcontainer">
+        <div>
           <div className="mainrow">
             <h3>Digital Agency</h3>
             <h1>Grow your Business with us</h1>
@@ -20,6 +21,8 @@ export default function Home() {
           
         </div>
       </div>
+      </header>
+    
     </>
   );
 }

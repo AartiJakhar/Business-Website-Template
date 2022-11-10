@@ -12,17 +12,17 @@ export default function Navbar() {
   return (
         <>
         
-          <div className="nav fixed-top">
+          <div className="nav ">
             <div>
-              <Link to="/" className="navlogo">
+              <Link to="/home" className="navlogo">
                 BLOG-VLOG
               </Link>
             </div>
             <div className="navrow">
               <nav>
-                <ul className="d-flex">
+                <ul>
                   <li>
-                    <Link to="/artical">Home</Link>
+                    <Link to="/home">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/services">Services</Link>
                     <Link to="/team">Team</Link>
