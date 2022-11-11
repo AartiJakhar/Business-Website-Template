@@ -47,44 +47,6 @@
     background-color: rgb(255, 70, 29);
     transition: all ease .3s;
 }
-@media screen and (max-width:1023px) {
-    .Topcontainer{
-        background: url('https://demo.gecdesigns.com/demo/webs/creative-business-website-template-130819/img/hero.jpg') center/cover  no-repeat ;
-        height: 22rem;
-        display: flex;
-        align-items: center;
-        top: 0;
-    }
-    .mainrow{
-        margin-left: 5rem;
-        width: 15rem;
-    }
-   
-        .mainrow h1{
-            width: 27rem;
-    font-size: 3rem;
-        
-    }
-}
-@media screen and (max-width:770px) {
-    .Topcontainer{
-        background: url('https://demo.gecdesigns.com/demo/webs/creative-business-website-template-130819/img/hero.jpg') center/cover  no-repeat ;
-        height: 22rem;
-        display: flex;
-        align-items: center;
-        top: 0;
-    }
-    .mainrow{
-        margin-left: 1rem;
-        width: 15rem;
-    }
-   
-        .mainrow h1{
-            width: 15rem;
-            font-size: 2rem;
-        
-    }
-}
 
 
 
@@ -117,4 +79,58 @@
     flex-wrap: wrap;
     margin-top: 4rem;
     
+}
+
+@media screen and (max-width:1023px) {
+    .Topcontainer{
+        background: url('https://demo.gecdesigns.com/demo/webs/creative-business-website-template-130819/img/hero.jpg') center/cover  no-repeat ;
+        height: 22rem;
+        display: flex;
+        align-items: center;
+        top: 0;
+    }
+    .mainrow{
+        margin-left: 5rem;
+        width: 15rem;
+    }
+   
+        .mainrow h1{
+            width: 27rem;
+    font-size: 3rem;
+        
+    }
+
+    /* for container  */
+    .row{
+        flex-direction: column;
+        padding: 0rem 4rem;
+    }
+    .leftBox{
+        width: 100%;
+        margin: 1rem 0rem;
+        
+    }
+    .rightBox{
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:770px) {
+    .Topcontainer{
+        background: url('https://demo.gecdesigns.com/demo/webs/creative-business-website-template-130819/img/hero.jpg') center/cover  no-repeat ;
+        height: 22rem;
+        display: flex;
+        align-items: center;
+        top: 0;
+    }
+    .mainrow{
+        margin-left: 1rem;
+        width: 15rem;
+    }
+   
+        .mainrow h1{
+            width: 15rem;
+            font-size: 2rem;
+        
+    }
 }
